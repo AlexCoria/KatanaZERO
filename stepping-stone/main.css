@@ -1,0 +1,160 @@
+/* CSS Document */
+
+body {
+	background-color:#FFFFFF;
+	margin:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#bbbbbb;
+	
+	/* OPTIONAL BACKGROUND IMAGE
+	
+	background-image:url(images/backgrounds/main.jpg);
+	background-position:center;
+	background-repeat:repeat-y;
+	
+	*/
+}
+
+a {
+	color:#999999;
+}
+
+a:hover {
+	color: #0586E4;
+	text-align: justify;
+
+}
+
+textarea,input,submit {
+	background-color:#eeeeee;
+	color:#666666;
+	padding:5px;
+	border:none;
+	margin:3px;
+}
+
+h1 {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 200%;
+	color: #021A2A;
+	font-weight: normal;
+}
+
+/* THE AREA THAT CONTAINS THE STONE IMAGE AND THE WEBSITE TITLE */
+
+#title {
+	margin:0 auto 0 auto;
+	text-align:center;
+	margin-bottom:25px;
+}
+
+#title p {
+	font-variant:small-caps;
+	letter-spacing:2px;
+}
+
+/* PROPERTIES OF THE HEADER IMAGE */
+
+#title img {
+	border:none;
+}
+
+/* THE AREA THAT CONTAINS ALL THE CONTENT OF THE WEBSITE */
+
+#container {
+	width:600px;
+	margin:0 auto 0 auto;
+}
+
+/* THE SIDEBAR WITHIN THE CONTAINER */
+
+#sidebar {
+	width: 200px;
+	float: right;
+	text-align: left;
+	font-size: 10px;
+}
+
+#sidebar h1 {
+	text-align: right;
+	font-size: 200%;
+	color: #F6048C;
+	border-bottom: 1px dashed #eeeeee;
+}
+
+#sidebar p {
+	line-height: 20px;
+	color: #1A84AB;
+	font-size: 13px;
+}
+
+
+/* THE MENU */
+
+#menu {
+	text-align:right;
+}
+
+#menu a {
+	color:#999999;
+	background-image:url(images/backgrounds/a.jpg);
+	background-position:right;
+	background-repeat:no-repeat;
+	padding-right:10px;
+	line-height:15px;
+	text-decoration:none;
+}
+
+#menu a:hover {
+	color:#cccccc;
+	background-image:url(images/backgrounds/a_hover.jpg);
+}
+
+
+/* THE AREA NEXT TO THE SIDEBAR */
+
+#content {
+	padding-right: 20px;
+	border-right: 1px solid #cccccc;
+	background-image: url(images/backgrounds/content.jpg);
+	background-position: right;
+	background-repeat: repeat-y;
+	font-size: 13px;
+}
+
+#content h1 {
+	font-family: "Trebuchet MS", Arial, Verdana;
+	text-align: left;
+	font-size: 200%;
+	color: #D0029C;
+	border-bottom: 1px dashed #eeeeee;
+	padding-top: 15px !important;
+	padding-top: 0;
+	background-image: url(images/stone.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+#content p {
+	line-height:20px;
+	text-indent:15px;
+}
+
+#content ol,ul {
+	line-height:25px;
+}
+
+#content li {
+	list-style-image:url(images/backgrounds/li.gif);
+}
+
+/* THE FOOTER */
+
+#footer {
+	width:580px;
+	margin:0 auto 0 auto;
+	padding:10px;
+	text-align:center;
+	border-top:1px dashed #cccccc;
+}
